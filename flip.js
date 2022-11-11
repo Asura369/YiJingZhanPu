@@ -15,11 +15,11 @@ function randomNum() {
 
 function setCoin(coinNum, coinText, num) {
     if (num == 2) {
-        document.getElementById(coinNum).setAttribute('src', './images/head.jpeg')
+        document.getElementById(coinNum).setAttribute('src', 'images/head.jpeg')
         document.getElementById(coinText).innerHTML = 'Yin'
     }
     else {
-        document.getElementById(coinNum).setAttribute('src', './images/tail.jpeg')
+        document.getElementById(coinNum).setAttribute('src', 'images/tail.jpeg')
         document.getElementById(coinText).innerHTML = 'Yang'
     }
 }
@@ -27,11 +27,11 @@ function setCoin(coinNum, coinText, num) {
 function setMark(mark) {
     total = randomNum()
     if (total == 6 || total == 8) {
-        document.getElementById(mark).setAttribute('src', './images/yin.png')
+        document.getElementById(mark).setAttribute('src', 'images/yin.png')
         document.getElementById(mark).setAttribute('name', 'yin')
     }
     else {
-        document.getElementById(mark).setAttribute('src', './images/yang.png')
+        document.getElementById(mark).setAttribute('src', 'images/yang.png')
         document.getElementById(mark).setAttribute('name', 'yang')
     }
 }
@@ -65,22 +65,22 @@ function flipcoin() {
     five = document.getElementById('five').getAttribute('src')
     six = document.getElementById('six').getAttribute('src')
 
-    if (one == "") {
+    if (one == "images/blank.png") {
         setMark("one")
     }
-    else if (two == "") {
+    else if (two == "images/blank.png") {
         setMark("two")
     }
-    else if (three == "") {
+    else if (three == "images/blank.png") {
         setMark("three")
     }
-    else if (four == "") {
+    else if (four == "images/blank.png") {
         setMark("four")
     }
-    else if (five == "") {
+    else if (five == "images/blank.png") {
         setMark("five")
     }
-    else if (six == "") {
+    else if (six == "images/blank.png") {
         setMark("six")
         document.getElementById('flip_button').innerHTML = 'Show Result'
     }
