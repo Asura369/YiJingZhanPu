@@ -1,7 +1,5 @@
-
 var yin = 2
 var yang = 3
-
 
 function randomNum() {
     num1 = Math.floor(Math.random() * (2)) + 2
@@ -44,13 +42,12 @@ function getFullMark() {
     five = document.getElementById('five').getAttribute('name')
     six = document.getElementById('six').getAttribute('name')
 
-    result = one +  two + three + four + five + six
+    result = one + two + three + four + five + six
     return result
 }
 
 function getRightTxt() {
     code = getFullMark()
-    console.log(code)
 
     if (code == "333333") {
         return "1乾"
@@ -247,25 +244,19 @@ function getRightTxt() {
     else {
         return "1乾"
     }
-
 }
-
-
 
 function showResult() {
     fileName = getRightTxt()
-
-    content = fetch('text/'+fileName+'.txt')
+    content = fetch('text/' + fileName + '.txt')
         .then(response => response.text())
         .then(text => {
             console.log(text)
             document.getElementById('result_content').innerHTML = text
         })
-
 }
 
 function flipcoin() {
-
     one = document.getElementById('one').getAttribute('src')
     two = document.getElementById('two').getAttribute('src')
     three = document.getElementById('three').getAttribute('src')
@@ -296,13 +287,4 @@ function flipcoin() {
         document.getElementById('default_link').setAttribute('class', 'hiddenContent')
         showResult()
     }
-
-
-
-
-
-
-
 }
-
-
