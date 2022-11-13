@@ -88,56 +88,56 @@ function getRightTxt() {
     else if (code == "222333") {
         return "12否"
     }
-    else if (code == "222222") {
-        return "13"
+    else if (code == "323333") {
+        return "13同人"
     }
-    else if (code == "222222") {
-        return "14"
+    else if (code == "333323") {
+        return "14大有"
     }
-    else if (code == "222222") {
-        return "15"
+    else if (code == "223222") {
+        return "15谦"
     }
-    else if (code == "222222") {
-        return "16"
+    else if (code == "222322") {
+        return "16豫"
     }
-    else if (code == "222222") {
-        return "17"
+    else if (code == "322332") {
+        return "17随"
     }
-    else if (code == "222222") {
-        return "18"
+    else if (code == "233223") {
+        return "18蛊"
     }
-    else if (code == "222222") {
-        return "19"
+    else if (code == "332222") {
+        return "19临"
     }
-    else if (code == "222222") {
-        return "20"
+    else if (code == "222233") {
+        return "20观"
     }
-    else if (code == "222222") {
-        return "21"
+    else if (code == "322323") {
+        return "21噬嗑"
     }
-    else if (code == "222222") {
-        return "22"
+    else if (code == "323223") {
+        return "22贲"
     }
-    else if (code == "222222") {
-        return "23"
+    else if (code == "222223") {
+        return "23剥"
     }
-    else if (code == "222222") {
-        return "24"
+    else if (code == "322222") {
+        return "24复"
     }
-    else if (code == "222222") {
-        return "25"
+    else if (code == "322333") {
+        return "25无妄"
     }
-    else if (code == "222222") {
-        return "26"
+    else if (code == "333223") {
+        return "26大畜"
     }
-    else if (code == "222222") {
-        return "27"
+    else if (code == "322223") {
+        return "27颐"
     }
-    else if (code == "222222") {
-        return "28"
+    else if (code == "233332") {
+        return "28大过"
     }
-    else if (code == "222222") {
-        return "29"
+    else if (code == "232232") {
+        return "29坎"
     }
     else if (code == "222222") {
         return "30"
