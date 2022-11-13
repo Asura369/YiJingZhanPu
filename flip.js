@@ -139,53 +139,53 @@ function getRightTxt() {
     else if (code == "232232") {
         return "29坎"
     }
-    else if (code == "222222") {
-        return "30"
+    else if (code == "323323") {
+        return "30离"
     }
-    else if (code == "222222") {
-        return "31"
+    else if (code == "223332") {
+        return "31咸"
     }
-    else if (code == "222222") {
-        return "32"
+    else if (code == "233322") {
+        return "32恒"
     }
-    else if (code == "222222") {
-        return "33"
+    else if (code == "223333") {
+        return "33遁"
     }
-    else if (code == "222222") {
-        return "34"
+    else if (code == "333322") {
+        return "34大壮"
     }
-    else if (code == "222222") {
-        return "35"
+    else if (code == "222323") {
+        return "35晋"
     }
-    else if (code == "222222") {
-        return "36"
+    else if (code == "323222") {
+        return "36明夷"
     }
-    else if (code == "222222") {
-        return "37"
+    else if (code == "323233") {
+        return "37家人"
     }
-    else if (code == "222222") {
-        return "38"
+    else if (code == "332323") {
+        return "38睽"
     }
-    else if (code == "222222") {
-        return "39"
+    else if (code == "223232") {
+        return "39蹇"
     }
-    else if (code == "222222") {
-        return "40"
+    else if (code == "232322") {
+        return "40解"
     }
-    else if (code == "222222") {
-        return "41"
+    else if (code == "332223") {
+        return "41损"
     }
-    else if (code == "222222") {
-        return "42"
+    else if (code == "322233") {
+        return "42益"
     }
-    else if (code == "222222") {
-        return "43"
+    else if (code == "333332") {
+        return "43夬"
     }
-    else if (code == "222222") {
-        return "44"
+    else if (code == "233333") {
+        return "44姤"
     }
-    else if (code == "222222") {
-        return "45"
+    else if (code == "222332") {
+        return "45萃"
     }
     else if (code == "222222") {
         return "46"
