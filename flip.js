@@ -187,62 +187,62 @@ function getRightTxt() {
     else if (code == "222332") {
         return "45萃"
     }
-    else if (code == "222222") {
-        return "46"
+    else if (code == "233222") {
+        return "46升"
     }
-    else if (code == "222222") {
-        return "47"
+    else if (code == "232332") {
+        return "47困"
     }
-    else if (code == "222222") {
-        return "48"
+    else if (code == "233232") {
+        return "48井"
     }
-    else if (code == "222222") {
-        return "49"
+    else if (code == "323332") {
+        return "49革"
     }
-    else if (code == "222222") {
-        return "50"
+    else if (code == "233323") {
+        return "50鼎"
     }
-    else if (code == "222222") {
-        return "51"
+    else if (code == "322322") {
+        return "51震"
     }
-    else if (code == "222222") {
-        return "52"
+    else if (code == "223223") {
+        return "52艮"
     }
-    else if (code == "222222") {
-        return "53"
+    else if (code == "223233") {
+        return "53渐"
     }
-    else if (code == "222222") {
-        return "54"
+    else if (code == "332322") {
+        return "54归妹"
     }
-    else if (code == "222222") {
-        return "55"
+    else if (code == "323322") {
+        return "55丰"
     }
-    else if (code == "222222") {
-        return "56"
+    else if (code == "223323") {
+        return "56旅"
     }
-    else if (code == "222222") {
-        return "57"
+    else if (code == "233233") {
+        return "57巽"
     }
-    else if (code == "222222") {
-        return "58"
+    else if (code == "332332") {
+        return "58兑"
     }
-    else if (code == "222222") {
-        return "59"
+    else if (code == "232233") {
+        return "59涣"
     }
-    else if (code == "222222") {
-        return "60"
+    else if (code == "332232") {
+        return "60节"
     }
-    else if (code == "222222") {
-        return "61"
+    else if (code == "332233") {
+        return "61中孚"
     }
-    else if (code == "222222") {
-        return "62"
+    else if (code == "223322") {
+        return "62小过"
     }
-    else if (code == "222222") {
-        return "63"
+    else if (code == "323232") {
+        return "63既济"
     }
-    else if (code == "222222") {
-        return "64"
+    else if (code == "232323") {
+        return "64未济"
     }
     else {
         return "1乾"
