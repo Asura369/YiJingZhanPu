@@ -34,7 +34,7 @@ function setMark(mark) {
     }
 }
 
-function getFullMark() {
+function getRightTxt() {
     one = document.getElementById('one').getAttribute('name')
     two = document.getElementById('two').getAttribute('name')
     three = document.getElementById('three').getAttribute('name')
@@ -42,12 +42,7 @@ function getFullMark() {
     five = document.getElementById('five').getAttribute('name')
     six = document.getElementById('six').getAttribute('name')
 
-    result = one + two + three + four + five + six
-    return result
-}
-
-function getRightTxt() {
-    code = getFullMark()
+    code = one + two + three + four + five + six
 
     if (code == "333333") {
         return "1乾"
@@ -258,11 +253,6 @@ function showResult() {
 
 function flipcoin() {
     one = document.getElementById('one').getAttribute('src')
-    two = document.getElementById('two').getAttribute('src')
-    three = document.getElementById('three').getAttribute('src')
-    four = document.getElementById('four').getAttribute('src')
-    five = document.getElementById('five').getAttribute('src')
-    six = document.getElementById('six').getAttribute('src')
 
     if (one == "images/blank.png") {
         setMark("one")
@@ -274,5 +264,5 @@ function flipcoin() {
         document.getElementById('default_link').setAttribute('class', 'hiddenContent')
         showResult()
     }
-    
+
 }
