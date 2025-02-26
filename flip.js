@@ -16,11 +16,11 @@ function randomNum() {
 function setCoin(coinNum, coinText, num) {
     if (num == 2) {
         document.getElementById(coinNum).setAttribute('src', 'images/head.jpeg')
-        document.getElementById(coinText).innerHTML = 'Yin'
+        document.getElementById(coinText).innerHTML = '阴(2)'
     }
     else {
         document.getElementById(coinNum).setAttribute('src', 'images/tail.jpeg')
-        document.getElementById(coinText).innerHTML = 'Yang'
+        document.getElementById(coinText).innerHTML = '阳(3)'
     }
 }
 
@@ -28,11 +28,11 @@ function setMark(mark) {
     total = randomNum()
     if (total == 6 || total == 8) {
         document.getElementById(mark).setAttribute('src', 'images/yin.png')
-        document.getElementById(mark).setAttribute('name', 'yin')
+        document.getElementById(mark).setAttribute('name', '阴(2)')
     }
     else {
         document.getElementById(mark).setAttribute('src', 'images/yang.png')
-        document.getElementById(mark).setAttribute('name', 'yang')
+        document.getElementById(mark).setAttribute('name', '阳(3)')
     }
 }
 
@@ -52,7 +52,12 @@ function getFullMark() {
 function showResult() {
     getFullMark()
 
-
+    content = fetch('text/1.txt')
+        .then(response => response.text())
+        .then(text => {
+            console.log(text)
+            document.getElementById('result_content').innerHTML = text
+        })
 
 }
 
@@ -85,6 +90,7 @@ function flipcoin() {
         document.getElementById('flip_button').innerHTML = 'Show Result'
     }
     else {
+        document.getElementById('default_link').setAttribute('class', 'hiddenContent')
         showResult()
     }
 
