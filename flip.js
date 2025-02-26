@@ -266,25 +266,13 @@ function flipcoin() {
 
     if (one == "images/blank.png") {
         setMark("one")
-    }
-    else if (two == "images/blank.png") {
         setMark("two")
-    }
-    else if (three == "images/blank.png") {
         setMark("three")
-    }
-    else if (four == "images/blank.png") {
         setMark("four")
-    }
-    else if (five == "images/blank.png") {
         setMark("five")
-    }
-    else if (six == "images/blank.png") {
         setMark("six")
-        document.getElementById('flip_button').innerHTML = 'Show Result'
-    }
-    else {
         document.getElementById('default_link').setAttribute('class', 'hiddenContent')
         showResult()
     }
+    
 }
